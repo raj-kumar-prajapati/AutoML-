@@ -333,7 +333,7 @@ export default function App() {
         </main>
 
         <footer className="app-footer">
-          ML Dashboard v2.0 | Built by Sangam Singh
+          ML Dashboard v2.0 | Built by Raj Prajapati
         </footer>
       </div>
     </div>
