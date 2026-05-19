@@ -101,7 +101,7 @@ export default function FooterSection() {
           flexWrap: 'wrap', gap: '1rem',
         }}>
           <p style={{ color: 'rgba(255,255,255,0.25)', fontSize: '0.8rem', margin: 0 }}>
-            Copyright 2026 NeuralForge. Built by Sangam Singh. All rights reserved.
+            Copyright 2026 NeuralForge. Built by Raj Prajapati. All rights reserved.
           </p>
           <div style={{ display: 'flex', gap: '0.45rem', alignItems: 'center' }}>
             <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#10b981', boxShadow: '0 0 8px #10b981', animation: 'pulse 2s ease infinite' }} />
