@@ -247,7 +247,7 @@ export default function Sidebar({
             <div className="sidebar-profile">
               <div className="sidebar-profile-avatar">SS</div>
               <div>
-                <p className="sidebar-profile-name">Sangam Singh</p>
+                <p className="sidebar-profile-name">Raj Prajapati</p>
                 <p className="sidebar-profile-role">ML Engineer</p>
               </div>
             </div>
