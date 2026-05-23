@@ -12,3 +12,4 @@ services:
     root: client
     buildCommand: npm ci && npm run build
     startCommand: npm run start
+ 
