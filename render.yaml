@@ -2,14 +2,19 @@ services:
   - type: web
     name: ml-dashboard-backend
     env: python
-    root: server
+    # root: server
+    rootDir: server
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
-
   - type: web
     name: ml-dashboard-frontend
     env: node
-    root: client
-    buildCommand: npm ci && npm run build
-    startCommand: npm run start
- 
+    # root: client
+    rootDir: client
+    envVars:
+      - key: NEXT_PUBLIC_API_BASE_URL
+        fromService:
+          name: ml-dashboard-backend
+          type: web
+          envVarKey: RENDER_EXTERNAL_URL
+    buildCommand: npm ci && npm 
